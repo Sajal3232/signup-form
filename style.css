@@ -1,0 +1,39 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('image/food.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    background: gray;
+    box-sizing: border-box;
+    width: 500px;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: cadetblue 0px 2px 2px 0px;
+}
+
+.container input{
+    border: none;
+    width: 70%;
+    padding: 10px;
+    border-radius: 50px;
+}
+.container button{
+    background: cornflowerblue;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
